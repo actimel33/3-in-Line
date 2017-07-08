@@ -1,0 +1,113 @@
+html{
+    height:100%;
+}
+
+body {
+    /*display: flex;
+    align-items: center;
+    justify-content: center;*/
+    width: 100%;
+    height:100%;
+    background-color: #525d68;
+}
+
+.fieldContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin-right: 22%;
+}
+
+.fieldContainer > a {
+    margin-right: 4em;
+}
+
+#container {
+    margin: 1.3em;
+}
+
+.field {
+    position: relative;
+    font-size: 65px;
+    border: 1px solid darkgray;
+    box-sizing: border-box;
+    background-color: lightslategray;
+}
+
+.cell {
+    position: absolute;
+    width: 1em;
+    height: 1em;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition: all 300ms cubic-bezier(0.59,-0.31, 0.48, 1.38);
+
+    cursor: pointer;
+}
+
+.cell-content {
+    font-size: 0.5em;
+}
+
+
+.active {
+    box-shadow: inset 0 0 0 4px rgb(255, 215, 0);
+    border-radius: 50%;
+}
+
+.gem {
+    background-image: url('http://i.piccy.info/i9/b38f18bc90d70fe6bdc764ade9344deb/1495897397/191511/1149256/6sprite1.png');
+    background-repeat: no-repeat;
+    background-size: 375px 400px;
+
+    width: 50px;
+    height:50px;
+}
+
+.gem-0 {
+    background: none;
+}
+
+.gem-1 {
+    background-position: -28px -22px;
+}
+
+.gem-2 {
+    background-position: -84px -22px;
+}
+
+.gem-3 {
+    background-position: -139px -23px;
+}
+
+.gem-4 {
+    background-position: -28px -75px;
+}
+
+.gem-5 {
+    background-position: -85px -79px;
+}
+
+.gem-6 {
+    background-position: -139px -73px;
+}
+
+.gem-7 {
+    background-position: -29px -132px;
+}
+
+.gem-8 {
+    background-position: -84px -130px;
+}
+
+.gem-9 {
+    background-position: -139px -130px;
+}
+
+#scores {
+    margin-right: 4em;
+    
+}
